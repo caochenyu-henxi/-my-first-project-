@@ -12,6 +12,21 @@ a {
   text-decoration: none
 }
 
+button{
+  border:none;
+}
+
+input:focus {
+  outline: none;  
+  border: none;   
+}
+
+button:hover{
+  cursor: pointer;
+  border:none;
+  padding: 0;
+}
+
 body {
   /* CSS3 抗锯齿形 让文字显示的更加清晰 */
   -webkit-font-smoothing: antialiased;

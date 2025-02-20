@@ -17,6 +17,13 @@ const routes = [
     component: getComponent('login', 'index')
   },
   {
+    path: '/loginAgree',
+    component: getComponent('agreement', 'loginAgree'),
+    mata: {
+      title: 'loginAgree'
+    }
+  },
+  {
     path: '/home',
     component: getComponent('layout', 'Layout'),
     children: [
